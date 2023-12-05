@@ -1,0 +1,42 @@
+/* background color and font */
+.common {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* title center and line */
+.title {
+    border-bottom: solid black;
+    text-align: center;
+    /* background-color: #bd4d38; */
+    margin: 0;
+    font-weight: bold;
+}
+
+/* section lines and center */
+.sections {
+    border-top: solid black;
+    border-bottom: solid black;
+    text-align: center;
+    /* background-color: #bd4d38; */
+}
+/* align photos */
+.photoalign {
+    text-align: center;
+}
+
+/* make no underline/color */
+.nounder {
+    text-decoration: none;
+    color: inherit;
+}
+/* make bold when hover */
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.tableaucontainter {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
